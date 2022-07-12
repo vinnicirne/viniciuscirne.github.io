@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: #38040e;
     background-color: #70c6c7;
 }
 
@@ -21,12 +22,14 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
+    background-color: #640d14;
     background-color: #00204A;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
+    background-color: #800e13;
     background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
@@ -37,6 +40,7 @@ body {
 
 .profile {
     width: 100%;
+    border-bottom: 2px solid #FDB44B;
     border-bottom: 2px solid #1B2631;
 }
 
@@ -87,6 +91,7 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
+    color: #ffffff;
     color: #d6dbdfaf;
     letter-spacing: 1px;
     font-size: 18px;
@@ -96,6 +101,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
+    color: #F9E79F;
     color: #2E86C1;
 }
 
@@ -104,6 +110,7 @@ body {
 }
 .skills ul li p {
     padding: .4rem 0;
+    color: #ffffff;
     color: #d6dbdfaf;
     font-size: 18px;
     letter-spacing: 1px;
@@ -123,6 +130,7 @@ body {
 
 .referance-profession {
     font-size: 16px;
+    color: #ffffff;
     color: #d6dbdfaf;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
@@ -135,6 +143,7 @@ body {
 }
 
 .right-title {
+    color: #F9E79F;
     color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
@@ -201,6 +210,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
+    border-left: 3px solid #ffffff;
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
 }
